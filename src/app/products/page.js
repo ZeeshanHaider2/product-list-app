@@ -1,5 +1,5 @@
 import React from "react";
-import ProductList from "../components";
+import ProductList from "../components/product-list";
 async function getProducts() {
   const res = await fetch("https://dummyjson.com/products");
 
